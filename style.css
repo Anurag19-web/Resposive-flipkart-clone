@@ -1,0 +1,135 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e8e8e8;
+}
+
+/* navbar */
+ 
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+#nav-search {
+    width: 45%;
+    height: 80%;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #e5f5f5;
+    color: #444;
+    outline: none;
+}
+
+#nav-search input[type="text"]:focus {
+    outline: none;
+}
+
+
+/* login-box & drop-downs*/
+
+#login-box {
+    display: inline-block;
+    padding: 9px;
+    font-size: 1.2rem;
+    position: relative;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#login-box:hover {
+    background-color: blue;
+}
+
+#login-box:hover #login-dropdown {
+    display: block;
+}
+
+#login-dropdown {
+    position: absolute;
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 1rem;
+    z-index: 1;
+    display: none;
+    top: 50px;
+}
+
+#login-dropdown a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 250px;
+    height: 40px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#login-dropdown a:hover {
+    background-color: #dddddd;
+}
+
+
+/* shopping-cart */
+
+#shopping-cart {
+    display: inline-block;
+    padding: 9px;
+    width: 75px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* become-seller */
+
+#become-seller {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 9px;
+}
+
+/* fa-ellipse-vertical */
+
+#three-dot-box {
+    position: relative;
+    float: right;
+    padding: 18px;
+}
+
+#three-dot-box-dropdown a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 250px;
+    height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#three-dot-box-dropdown{
+    position: absolute;
+    z-index: 1;
+    top: 1px;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    top: 40px;
+    right: 0px;
+    display: none;
+}
+
+#three-dot-box:hover #three-dot-box-dropdown {
+    display: block;
+}
+
+#three-dot-box-dropdown a:hover {
+    background-color: #dddddd;
+}
