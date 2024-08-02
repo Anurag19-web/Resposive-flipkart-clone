@@ -3,9 +3,6 @@ body {
     margin: 0;
     background-color: #e8e8e8;
 }
-
-/* navbar */
- 
 .navbar {
     height: 60px;
     display: flex;
@@ -14,15 +11,31 @@ body {
     justify-content: space-around;
     background-color: white;
 }
-
+.navbar-search{
+    display: flex;
+    width: 750px;
+    height: 38px;
+    background-color: #e5f5f5;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+#search-icon{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: gray;
+}
 #nav-search {
+    margin-left: 15px;
+    margin-top: 3.5px;
     width: 45%;
     height: 80%;
-    font-size: 1rem;
+    font-size: 20px;
     border-radius: 5px;
     background-color: #e5f5f5;
     color: #444;
     outline: none;
+    border: none;
 }
 
 #nav-search input[type="text"]:focus {
