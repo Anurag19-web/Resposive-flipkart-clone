@@ -47,15 +47,16 @@ body {
 
 #login-box {
     display: inline-block;
-    padding: 9px;
+    /* padding: 9px; */
     font-size: 1.2rem;
     position: relative;
     border-radius: 1rem;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 #login-box:hover {
     background-color: blue;
+    cursor: pointer;
 }
 
 #login-box:hover #login-dropdown {
@@ -85,6 +86,7 @@ body {
 
 #login-dropdown a:hover {
     background-color: #dddddd;
+    
 }
 
 
@@ -145,4 +147,25 @@ body {
 
 #three-dot-box-dropdown a:hover {
     background-color: #dddddd;
+}
+.cart-text{
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seller-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 155px;
+}
+/* Responsive */
+
+@media only screen and (max-width:1200px) {
+  .nav-text{
+   display: none;
+}
 }
