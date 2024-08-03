@@ -5,11 +5,14 @@ body {
 }
 .navbar {
     height: 60px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
     background-color: white;
+    position: fixed;
+    top: 1px;
 }
 .navbar-search{
     display: flex;
@@ -28,7 +31,7 @@ body {
 #nav-search {
     margin-left: 15px;
     margin-top: 3.5px;
-    width: 45%;
+    width: 100%;
     height: 80%;
     font-size: 20px;
     border-radius: 5px;
@@ -98,6 +101,7 @@ body {
     width: 75px;
     text-align: center;
     font-size: 1.2rem;
+    margin-right: 30px;
 }
 
 /* become-seller */
@@ -112,8 +116,8 @@ body {
 
 #three-dot-box {
     position: relative;
-    float: right;
     padding: 18px;
+    display: inline-block;
 }
 
 #three-dot-box-dropdown a {
@@ -162,10 +166,60 @@ body {
     height: 45px;
     width: 155px;
 }
-/* Responsive */
+/* Responsive tablet */
 
 @media only screen and (max-width:1200px) {
   .nav-text{
    display: none;
 }
+    #become-seller {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .seller-text {
+        margin-right: 5px;
+        width: 50px;
+    }
+    .three-dot {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: -60px;
+    }
+    #shopping-cart {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cart-text {
+        margin-right: -30px;
+    }
+}
+
+/* reponsive mobile  */
+
+#bars {
+    font-size: 25px;
+    margin-left: 30px;
+    display: none;
+}
+
+.download-app {
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+    #bars {
+        display: block;
+    }
+    .download-app {
+        display: block;
+    }
+    .navbar-search {
+        display: none;
+    }
+    #three-dot-box {
+        display: none;
+    }
+    #become-seller {
+        display: none;
+    }
 }
