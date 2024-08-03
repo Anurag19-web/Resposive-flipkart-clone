@@ -1,0 +1,271 @@
+.recomdation {
+    height: 145px;
+    margin: 7px 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.recomm-img {
+    height: 80%;
+    width: 8%;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.recomm-img a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* fashion & its dropdown */
+
+#fashion-box {
+    position: relative;
+}
+
+#fashion-box:hover #fashion-dropdown-1 {
+    display: block;
+}
+
+#fashion-box:hover #fashion-dropdown-2 {
+    display: block;
+}
+
+#fashion-dropdown {
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    width: 400%;
+    right: 0;
+    left: -150px;
+    background-color: white; 
+}
+
+#fashion-dropdown a {
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    width: 96%;
+    height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#fashion-dropdown a:hover {
+    background-color: #e9fbff;
+}
+
+#fashion-dropdown-1 {
+    width: 50%;
+    display: none;
+    border-radius: 1rem;
+    /* z-index: 1; */
+}
+
+#fashion-dropdown-2 {
+    width: 50%;
+    display: none;
+    border-radius: 1rem;
+    box-shadow: -5px 0 5px #999;
+    /* z-index: 1; */
+}
+
+
+
+/* electronic & its dropdown */
+
+#electronic-box {
+    position: relative;
+}
+
+#electronic-box:hover #electronic-dropdown-1 {
+    display: block;
+}
+
+#electronic-box:hover #electronic-dropdown-2 {
+    display: block;
+}
+
+#electronic-dropdown {
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    width: 400%;
+    right: 0;
+    left: -150px;
+    background-color: white; 
+}
+
+#electronic-dropdown a {
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    width: 96%;
+    height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#electronic-dropdown a:hover {
+    background-color: #e9fbff;
+}
+
+#electronic-dropdown-1 {
+    width: 50%;
+    display: none;
+    border-radius: 1rem;
+}
+
+#electronic-dropdown-2 {
+    width: 50%;
+    display: none;
+    border-radius: 1rem;
+    box-shadow: -5px 0 5px #999;
+}
+
+
+
+/* home, furniture & its dropdonw */
+
+#home-furniture-box {
+    position: relative;
+}
+
+#home-furniture-box:hover #home-furniture-dropdown-1 {
+    display: block;
+}
+
+#home-furniture-box:hover #home-furniture-dropdown-2 {
+    display: block;
+}
+
+#home-furniture-dropdown {
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    width: 400%;
+    right: 0;
+    left: -150px;
+    background-color: white; 
+}
+
+#home-furniture-dropdown a {
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    width: 96%;
+    height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#home-furniture-dropdown a:hover {
+    background-color: #e9fbff;
+}
+
+#home-furniture-dropdown-1 {
+    width: 50%;
+    display: none;
+    border-radius: 1rem;
+}
+
+#home-furniture-dropdown-2 {
+    width: 50%;
+    display: none;
+    border-radius: 1rem;
+    box-shadow: -5px 0 5px #999;
+}
+
+/* beauty, toy & its dropdown */
+
+#beauty-toy-box {
+    position: relative;
+}
+
+#beauty-toy-box:hover #beauty-toy-dropdown-1 {
+    display: block;
+}
+
+#beauty-toy-box:hover #beauty-toy-dropdown-2 {
+    display: block;
+}
+
+#beauty-toy-dropdown {
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    width: 400%;
+    right: 0;
+    left: -150px;
+    background-color: white;
+}
+
+#beauty-toy-dropdown a {
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    width: 96%;
+    height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#beauty-toy-dropdown a:hover {
+    background-color: #e9fbff;
+}
+
+#beauty-toy-dropdown-1 {
+    width: 50%;
+    display: none;
+    border-radius: 1rem;
+}
+
+#beauty-toy-dropdown-2 {
+    width: 50%;
+    display: none;
+    border-radius: 1rem;
+    box-shadow: -5px 0 5px #999;
+}
+
+
+
+/* wheelers & its dropdown */
+
+#two-wheeler-box {
+    position: relative;
+}
+
+#two-wheeler-box:hover #two-wheeler-dropdown {
+    display: block;
+}
+
+#two-wheeler-dropdown a{
+    display: block;
+    width: 250px;
+    height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+#two-wheeler-dropdown a:hover {
+    background-color: #e9fbff;
+    font-weight: 500;
+}
+
+#two-wheeler-dropdown {
+    background-color: white;
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    display: none;
+}
