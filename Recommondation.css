@@ -1,4 +1,4 @@
-.recomdation {
+.recommondation {
     height: 145px;
     margin: 7px 10px;
     background-color: white;
@@ -13,6 +13,10 @@
     width: 8%;
     text-align: center;
     margin: 0 10px;
+}
+
+.recomm-img img {
+    margin-bottom: 10%;
 }
 
 .recomm-img a {
@@ -135,6 +139,7 @@
 
 #home-furniture-box {
     position: relative;
+    width: 130px;
 }
 
 #home-furniture-box:hover #home-furniture-dropdown-1 {
@@ -149,7 +154,7 @@
     box-sizing: border-box;
     position: absolute;
     display: flex;
-    width: 400%;
+    width: 464px;
     right: 0;
     left: -150px;
     background-color: white; 
@@ -171,13 +176,13 @@
 }
 
 #home-furniture-dropdown-1 {
-    width: 50%;
+    width: 232px;
     display: none;
     border-radius: 1rem;
 }
 
 #home-furniture-dropdown-2 {
-    width: 50%;
+    width: 232px;
     display: none;
     border-radius: 1rem;
     box-shadow: -5px 0 5px #999;
@@ -187,6 +192,7 @@
 
 #beauty-toy-box {
     position: relative;
+    width: 140px;
 }
 
 #beauty-toy-box:hover #beauty-toy-dropdown-1 {
@@ -201,7 +207,7 @@
     box-sizing: border-box;
     position: absolute;
     display: flex;
-    width: 400%;
+    width: 464px;
     right: 0;
     left: -150px;
     background-color: white;
@@ -268,4 +274,16 @@
     border: 1px solid transparent;
     border-radius: 1rem;
     display: none;
+}
+
+
+/* reponsiveness for tablet  */
+
+@media only screen and (max-width: 1200px){
+    .recomm-img {
+        padding: 16px;
+    }
+    .recommondation {
+        justify-content: space-evenly;
+    }
 }

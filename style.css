@@ -50,11 +50,10 @@ body {
 
 #login-box {
     display: inline-block;
-    /* padding: 9px; */
     font-size: 1.2rem;
     position: relative;
     border-radius: 1rem;
-    /* padding: 1rem; */
+    padding-bottom: 5px;
 }
 
 #login-box:hover {
