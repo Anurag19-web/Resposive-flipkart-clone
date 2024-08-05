@@ -43,11 +43,15 @@
     box-sizing: border-box;
     position: absolute;
     display: flex;
-    width: 400%;
-    right: 0;
-    left: -150px;
-    background-color: white; 
+    width: 500px;
+    left: 130px;
+    margin-top: -10px;
+    background-color: white;
 }
+
+/* .moulik {
+    display: none;
+} */
 
 #fashion-dropdown a {
     display: block;
@@ -65,18 +69,32 @@
 }
 
 #fashion-dropdown-1 {
-    width: 50%;
-    display: none;
+    width: 232px;
+    /* display: none; */
     border-radius: 1rem;
     /* z-index: 1; */
 }
 
 #fashion-dropdown-2 {
-    width: 50%;
-    display: none;
+    width: 232px;
+    /* display: none; */
     border-radius: 1rem;
     box-shadow: -5px 0 5px #999;
     /* z-index: 1; */
+}
+
+#fashion-dropdown-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#fashion-dropdown-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+#fashion-box:hover .moulik{
+    display: inline-block;
 }
 
 
@@ -121,13 +139,13 @@
 }
 
 #electronic-dropdown-1 {
-    width: 50%;
+    width: 232px;
     display: none;
     border-radius: 1rem;
 }
 
 #electronic-dropdown-2 {
-    width: 50%;
+    width: 232px;
     display: none;
     border-radius: 1rem;
     box-shadow: -5px 0 5px #999;
@@ -229,13 +247,13 @@
 }
 
 #beauty-toy-dropdown-1 {
-    width: 50%;
+    width: 232px;
     display: none;
     border-radius: 1rem;
 }
 
 #beauty-toy-dropdown-2 {
-    width: 50%;
+    width: 232px;
     display: none;
     border-radius: 1rem;
     box-shadow: -5px 0 5px #999;
@@ -285,5 +303,8 @@
     }
     .recommondation {
         justify-content: space-evenly;
+        overflow: auto;
+        scrollbar-width: none;
+
     }
 }
