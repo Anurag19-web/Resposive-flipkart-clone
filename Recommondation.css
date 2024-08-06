@@ -31,27 +31,15 @@
     position: relative;
 }
 
-#fashion-box:hover #fashion-dropdown-1 {
-    display: block;
-}
-
-#fashion-box:hover #fashion-dropdown-2 {
-    display: block;
-}
-
 #fashion-dropdown {
     box-sizing: border-box;
     position: absolute;
     display: flex;
     width: 500px;
-    left: 130px;
+    left: 200px;
     margin-top: -10px;
     background-color: white;
 }
-
-/* .moulik {
-    display: none;
-} */
 
 #fashion-dropdown a {
     display: block;
@@ -70,14 +58,14 @@
 
 #fashion-dropdown-1 {
     width: 232px;
-    /* display: none; */
+    display: none;
     border-radius: 1rem;
     /* z-index: 1; */
 }
 
 #fashion-dropdown-2 {
     width: 232px;
-    /* display: none; */
+    display: none;
     border-radius: 1rem;
     box-shadow: -5px 0 5px #999;
     /* z-index: 1; */
@@ -92,11 +80,6 @@
     text-decoration: none;
     color: black;
 }
-
-#fashion-box:hover .moulik{
-    display: inline-block;
-}
-
 
 
 /* electronic & its dropdown */
@@ -117,9 +100,10 @@
     box-sizing: border-box;
     position: absolute;
     display: flex;
-    width: 400%;
+    width: 500px;
     right: 0;
-    left: -150px;
+    left: 330px;
+    margin-top: -10px;
     background-color: white; 
 }
 
@@ -151,6 +135,16 @@
     box-shadow: -5px 0 5px #999;
 }
 
+#electronic-dropdown-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#electronic-dropdown-2 a {
+    text-decoration: none;
+    color: black;
+}
+
 
 
 /* home, furniture & its dropdonw */
@@ -174,7 +168,8 @@
     display: flex;
     width: 464px;
     right: 0;
-    left: -150px;
+    left: 500px;
+    margin-top: -10px;
     background-color: white; 
 }
 
@@ -206,6 +201,16 @@
     box-shadow: -5px 0 5px #999;
 }
 
+#home-furniture-dropdown-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#home-furniture-dropdown-2 a {
+    text-decoration: none;
+    color: black;
+}
+
 /* beauty, toy & its dropdown */
 
 #beauty-toy-box {
@@ -227,7 +232,8 @@
     display: flex;
     width: 464px;
     right: 0;
-    left: -150px;
+    left: 930px;
+    margin-top: -10px;
     background-color: white;
 }
 
@@ -257,6 +263,16 @@
     display: none;
     border-radius: 1rem;
     box-shadow: -5px 0 5px #999;
+}
+
+#beauty-toy-dropdown-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#beauty-toy-dropdown-2 a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -305,6 +321,14 @@
         justify-content: space-evenly;
         overflow: auto;
         scrollbar-width: none;
-
+    }
+    #fashion-dropdown {
+        left: 70px;
+    }
+    #electronic-dropdown {
+        left: 200px;
+    }
+    #home-furniture-dropdown {
+        left: 350px;
     }
 }
