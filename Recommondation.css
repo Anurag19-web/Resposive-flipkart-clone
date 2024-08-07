@@ -6,6 +6,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 70px;
+    position: none;
+    z-index: -3;
 }
 
 .recomm-img {
@@ -37,6 +39,7 @@
     display: flex;
     width: 500px;
     left: 200px;
+    top: 220px;
     margin-top: -10px;
     background-color: white;
 }
@@ -101,8 +104,8 @@
     position: absolute;
     display: flex;
     width: 500px;
-    right: 0;
     left: 330px;
+    top: 220px;
     margin-top: -10px;
     background-color: white; 
 }
@@ -169,6 +172,7 @@
     width: 464px;
     right: 0;
     left: 500px;
+    top: 220px;
     margin-top: -10px;
     background-color: white; 
 }
@@ -232,6 +236,7 @@
     display: flex;
     width: 464px;
     right: 0;
+    top: 220px;
     left: 930px;
     margin-top: -10px;
     background-color: white;
@@ -308,6 +313,13 @@
     border: 1px solid transparent;
     border-radius: 1rem;
     display: none;
+    right: 20px;
+    margin-top: -10px;
+}
+
+#two-wheeler-dropdown a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -321,6 +333,7 @@
         justify-content: space-evenly;
         overflow: auto;
         scrollbar-width: none;
+        position: static;
     }
     #fashion-dropdown {
         left: 70px;
@@ -331,4 +344,11 @@
     #home-furniture-dropdown {
         left: 350px;
     }
+    #beauty-toy-dropdown {
+        left: 450px;
+    }
+    .caret-down {
+        display: none;
+    }
+    
 }
