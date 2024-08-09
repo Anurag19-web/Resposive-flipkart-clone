@@ -14,7 +14,7 @@
     top: 0;
     right: -100%;
     object-fit: cover;
-    animation: slide 10s infinite;
+    animation: slide 14s infinite;
     z-index: -1;
 }
 
@@ -28,9 +28,9 @@
 
 #slide img:nth-child(1) {animation-delay: 0s;}
 #slide img:nth-child(2) {animation-delay: 3s;}
-#slide img:nth-child(3) {animation-delay: 5s;}
-#slide img:nth-child(4) {animation-delay: 7s;}
-#slide img:nth-child(5) {animation-delay: 9s;}
+#slide img:nth-child(3) {animation-delay: 7s;}
+#slide img:nth-child(4) {animation-delay: 11s;}
+#slide img:nth-child(5) {animation-delay: 13s;}
 
 /* slide button  */
 
@@ -57,4 +57,17 @@
     z-index: 1;
     top: 65px;
     right: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    #slide {
+        height: 140px;
+    }
+    #slide-btn-right {
+        display: none;
+    }
+    #slide-btn-left {
+        display: none;
+    }
+    
 }
