@@ -358,5 +358,10 @@
 }
 
 @media only screen and (max-width: 750px) {
-    
+    .recomm-img {
+        width: 15%;
+    }
+    .recommondation {
+        margin: 10px 5px 7px 5px;
+    }
 }

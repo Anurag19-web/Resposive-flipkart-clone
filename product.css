@@ -11,6 +11,7 @@
     justify-content: space-evenly;
     overflow: hidden;
     scrollbar-width: none;
+    z-index: -1;
 }
 
 #heading-ele {
@@ -114,8 +115,34 @@
     top: 130px;
 }
 
+/* beauty btn  */
+
+#btn-left-beauty {
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 0;
+    top: 130px;
+}
+
+#btn-right-beauty {
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 130px;
+}
+
 #ele-pro-explore {
-    float: right; position: relative; top: 30px; right: 50px; font-size: 1.5rem;
+    float: right; position: relative; top: 30px; right: 30px; font-size: 1.5rem;
+}
+
+.right-icon {
+    display: none;
 }
 
 @media screen and (max-width: 1200px) {
@@ -123,6 +150,12 @@
         display: none;
     }
     #btn-left {
+        display: none;
+    }
+    #btn-right-beauty {
+        display: none;
+    }
+    #btn-left-beauty {
         display: none;
     }
     #heading-ele {
@@ -157,4 +190,54 @@
         top: 15px;
     }
 
+}
+
+/* mobile */
+
+@media only screen and (max-width: 750px) {
+    #best-of-ele {
+        flex-direction: column;
+    }
+    #best-of-ele-main {
+        height: auto;
+        margin-left: 0;
+        width: 100vw;
+    }
+    #heading-ele {
+        margin: 20px 0 20px 10px;
+    }
+    #ele-pro-explore{
+        margin-top: 14px;
+    }
+    .ele-product {
+        border: none;
+        height: auto;
+        width: 96vw;
+        margin-left: 0;
+    }
+    .ele-pro-img img {
+        height: 65px;
+        width: 50px;
+    }
+    .ele-pro-img {
+        height: 65px;
+        width: 50px;
+        padding-left: 20px;
+    }
+    .pro-info {
+        height: auto; 
+        width: auto;  
+        display: inline-block; 
+        position: relative; 
+        right: 50px;
+        bottom: 50px;
+        margin-left: 25px;
+    }
+    .right-icon {
+        float: right;
+        position: relative;
+        bottom: 30px;
+        right: 15px;
+        display: inline;
+    }
 }

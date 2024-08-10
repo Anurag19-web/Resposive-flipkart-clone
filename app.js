@@ -80,6 +80,22 @@ rightBtn.addEventListener('click', ()=> {
 })
 
 
+// for beauty 
+
+let leftBtnB = document.querySelector('#btn-left-beauty')
+let rightBtnB = document.querySelector('#btn-right-beauty');
+
+leftBtnB.addEventListener('click', ()=> {
+    leftBtnB.style.display = 'none';
+    rightBtnB.style.display = 'block'
+})
+
+rightBtnB.addEventListener('click', ()=> {
+    leftBtnB.style.display = 'block';
+    rightBtnB.style.display = 'none';
+})
+
+
 window.addEventListener('resize', () => {
     let screensize = window.innerWidth;
     if(screensize <= '750'){
@@ -94,4 +110,73 @@ window.addEventListener('resize', () => {
     document.querySelector('#home-furniture-dropdown').style.display = 'flex';
     document.querySelector('#beauty-toy-dropdown').style.display = 'flex';
 }
+})
+
+// nav
+document.querySelector('.navbar').addEventListener('mouseover', ()=> {
+    // none to fashion
+    document.querySelector("#fashion-dropdown-1").style.display = 'none';
+    document.querySelector("#fashion-dropdown-2").style.display = 'none';
+
+    // none to electronic
+    document.querySelector("#electronic-dropdown-1").style.display = 'none';
+    document.querySelector("#electronic-dropdown-2").style.display = 'none';
+
+    // none to home-furniture
+    document.querySelector("#home-furniture-dropdown-1").style.display = 'none';
+    document.querySelector("#home-furniture-dropdown-2").style.display = 'none';
+
+    //none to beauty-toy & more
+    document.querySelector("#beauty-toy-dropdown-1").style.display = 'none';
+    document.querySelector("#beauty-toy-dropdown-2").style.display = 'none';
+
+    //none to two-wheeler
+    document.querySelector('#two-wheeler-dropdown').style.display = 'none';
+})
+
+// slide 
+
+document.querySelector('#slide').addEventListener('mouseover', ()=> {
+    // none to fashion
+    document.querySelector("#fashion-dropdown-1").style.display = 'none';
+    document.querySelector("#fashion-dropdown-2").style.display = 'none';
+
+    // none to electronic
+    document.querySelector("#electronic-dropdown-1").style.display = 'none';
+    document.querySelector("#electronic-dropdown-2").style.display = 'none';
+
+    // none to home-furniture
+    document.querySelector("#home-furniture-dropdown-1").style.display = 'none';
+    document.querySelector("#home-furniture-dropdown-2").style.display = 'none';
+
+    //none to beauty-toy & more
+    document.querySelector("#beauty-toy-dropdown-1").style.display = 'none';
+    document.querySelector("#beauty-toy-dropdown-2").style.display = 'none';
+
+    //none to two-wheeler
+    document.querySelector('#two-wheeler-dropdown').style.display = 'none';
+
+})
+
+// product 
+document.querySelector('#best-of-ele-main').addEventListener('mouseover', ()=> {
+    // none to fashion
+    document.querySelector("#fashion-dropdown-1").style.display = 'none';
+    document.querySelector("#fashion-dropdown-2").style.display = 'none';
+
+    // none to electronic
+    document.querySelector("#electronic-dropdown-1").style.display = 'none';
+    document.querySelector("#electronic-dropdown-2").style.display = 'none';
+
+    // none to home-furniture
+    document.querySelector("#home-furniture-dropdown-1").style.display = 'none';
+    document.querySelector("#home-furniture-dropdown-2").style.display = 'none';
+
+    //none to beauty-toy & more
+    document.querySelector("#beauty-toy-dropdown-1").style.display = 'none';
+    document.querySelector("#beauty-toy-dropdown-2").style.display = 'none';
+
+    //none to two-wheeler
+    document.querySelector('#two-wheeler-dropdown').style.display = 'none';
+
 })
