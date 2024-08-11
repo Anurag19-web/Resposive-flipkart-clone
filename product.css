@@ -4,14 +4,15 @@
     width: 99%;
     background-color: rgb(255, 255, 255);
     position: relative;
+    overflow: hidden;
 }
 
 #best-of-ele {
     display: flex;
     justify-content: space-evenly;
-    overflow: hidden;
-    scrollbar-width: none;
-    z-index: -1;
+    position: absolute;
+    right: -28%;
+    transition: right 1.2s ease;
 }
 
 #heading-ele {
@@ -21,7 +22,7 @@
 }
 
 .ele-product {
-    border: 1px solid #999;
+    border: 1px solid #e1e1e1;
     display: inline-block;
     /* padding: 0px 45px 30px 45px; */
     text-align: center;
@@ -51,22 +52,31 @@
     height: 215px;
     cursor: Hand;
 }
+#first-pro {
+    position: relative;
+}
+
+#last-pro {
+    position: relative;
+}
 
 
-/* .mon-deals {
+/* monsson deals  */
+
+.mon-deals {
     height: 640px;
     width: 32%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 15px 0 0 5px;
     background-color: white;
     display: inline-block;
-    position: relative;
-    top: -315px;
-} */
+    /* position: relative; */
+    /* top: -315px; */
+}
 
-/* .mon-pro {
+.mon-pro {
     text-align: center;
-    border: 1px solid #888;
+    border: 1px solid #e1e1e1;
     display: inline-block;
     margin-top: 10px;
 }
@@ -80,18 +90,23 @@
     width: 120px;
 }
 
+.mon-pro-img {
+    height: 210px;
+    width: 120px;
+}
+
 .mon-pro-img img:hover {
-    height: 220px;
-    width: 140px;
+    height: 215px;
+    width: 125px;
     cursor: hand;
-} */
+}
 
 
-/* #flex {
+#flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-} */
+}
 
 #btn-left {
     /* padding: 33px 15px; */
@@ -102,6 +117,7 @@
     position: absolute;
     left: 0;
     top: 130px;
+    z-index: 1;
 }
 
 #btn-right {
@@ -113,6 +129,7 @@
     position: absolute;
     right: 0;
     top: 130px;
+    z-index: 1;
 }
 
 /* beauty btn  */
@@ -125,6 +142,7 @@
     position: absolute;
     left: 0;
     top: 130px;
+    z-index: 1;
 }
 
 #btn-right-beauty {
@@ -135,6 +153,7 @@
     position: absolute;
     right: 0;
     top: 130px;
+    z-index: 1;
 }
 
 #ele-pro-explore {
@@ -189,6 +208,27 @@
     #ele-pro-explore {
         top: 15px;
     }
+    .mon-deals {
+        display: block;
+        width: 100%;
+        height: 360px;
+    }
+    .mon-pro {
+        width: 23%;
+        height: 290px;
+    }
+    .mon-pro-img img {
+        height: 230px;
+        width: 165px;
+    }
+    .mon-pro-img {
+        margin-bottom: 30px;
+    }
+    .mon-pro-img img:hover {
+        height: 230px;
+        width: 165px;
+        cursor: hand;
+    }
 
 }
 
@@ -202,6 +242,7 @@
         height: auto;
         margin-left: 0;
         width: 100vw;
+        margin-right: 0;
     }
     #heading-ele {
         margin: 20px 0 20px 10px;
@@ -239,5 +280,20 @@
         bottom: 30px;
         right: 15px;
         display: inline;
+    }
+    .mon-deals {
+        height: 680px;
+        width: 100%;
+    }
+    .mon-pro {
+        height: 50%;
+        width: 45%;
+    }
+    .mon-pro-img img{
+        height: 200px;
+        width: 150px;
+    }
+    .mon-pro-img {
+        padding: 0 25px 0 25px;
     }
 }

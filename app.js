@@ -180,3 +180,28 @@ document.querySelector('#best-of-ele-main').addEventListener('mouseover', ()=> {
     document.querySelector('#two-wheeler-dropdown').style.display = 'none';
 
 })
+
+// ele-pro-slide 
+
+let btn = document.querySelector('#btn-right');
+let Lbtn = document.querySelector('#btn-left');
+let ele = document.querySelector('#best-of-ele');
+
+
+btn.addEventListener('click', ()=> {
+    ele.style.right = '1%';
+})
+
+Lbtn.addEventListener('click', ()=> {
+    ele.style.right = '-28%';
+})
+
+// 2nd 
+
+let btn1 = document.querySelector('#btn-right-beauty');
+let Lbtn2 = document.querySelector('#btn-left-beauty');
+
+btn1.addEventListener('click', ()=> {
+    console.log('hello');
+    ele.style.right = '1%';
+})
