@@ -1,4 +1,4 @@
-#best-of-ele-main {
+.best-of-ele-main {
     height: 350px;
     margin: 15px 7px 0 7px;
     width: 99%;
@@ -7,13 +7,37 @@
     overflow: hidden;
 }
 
-#best-of-ele {
+.best-of-ele {
     display: flex;
     justify-content: space-evenly;
     position: absolute;
     right: -28%;
-    transition: right 1.2s ease;
+    transition: right 0.7s ease;
 }
+
+/* for food, beauty, toys and more  */
+
+.best-of-beauty {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    right: -28%;
+    transition: right 0.7s ease;
+}
+
+/* for food, beauty, toys and more end  */
+
+/* for new arrival collection  */
+
+.best-of-collection {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    right: -28%;
+    transition: right 0.7s ease;
+}
+
+/* for new arrival collection end  */
 
 #heading-ele {
     margin-left: 10px;
@@ -156,13 +180,35 @@
     z-index: 1;
 }
 
+#btn-left-collection {
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 0;
+    top: 130px;
+    z-index: 1;
+}
+
+#btn-right-collection {
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 130px;
+    z-index: 1;
+}
+
 #ele-pro-explore {
     float: right; position: relative; top: 30px; right: 30px; font-size: 1.5rem;
 }
 
 .right-icon {
     display: none;
-}
+}     
 
 @media screen and (max-width: 1200px) {
     #btn-right {
@@ -180,11 +226,22 @@
     #heading-ele {
         margin: 12px 0 12px 10px;
     }
-    #best-of-ele {
-        overflow: scroll;
+    .best-of-ele {
+        right: -52%;
     }
-    #best-of-ele-main {
+    .best-of-beauty {
+        right: -52%;
+    }
+    #btn-right-collection {
+        display: none;
+    }
+    .best-of-collection {
+        right: -52%;
+    }
+    .best-of-ele-main {
         height: 290px;
+        overflow: scroll;
+        scrollbar-width: none;
     }
     .ele-product {
         height: 230px;
@@ -232,13 +289,19 @@
 
 }
 
-/* mobile */
+/* mobile */ 
 
 @media only screen and (max-width: 750px) {
-    #best-of-ele {
+    .best-of-ele {
         flex-direction: column;
     }
-    #best-of-ele-main {
+    .best-of-beauty {
+        flex-direction: column;
+    }
+    .best-of-collection {
+        flex-direction: column;
+    }
+    .best-of-ele-main {
         height: auto;
         margin-left: 0;
         width: 100vw;

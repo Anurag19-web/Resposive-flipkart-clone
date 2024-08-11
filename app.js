@@ -159,7 +159,7 @@ document.querySelector('#slide').addEventListener('mouseover', ()=> {
 })
 
 // product 
-document.querySelector('#best-of-ele-main').addEventListener('mouseover', ()=> {
+document.querySelector('.best-of-ele-main').addEventListener('mouseover', ()=> {
     // none to fashion
     document.querySelector("#fashion-dropdown-1").style.display = 'none';
     document.querySelector("#fashion-dropdown-2").style.display = 'none';
@@ -185,7 +185,7 @@ document.querySelector('#best-of-ele-main').addEventListener('mouseover', ()=> {
 
 let btn = document.querySelector('#btn-right');
 let Lbtn = document.querySelector('#btn-left');
-let ele = document.querySelector('#best-of-ele');
+let ele = document.querySelector('.best-of-ele'); 
 
 
 btn.addEventListener('click', ()=> {
@@ -199,9 +199,31 @@ Lbtn.addEventListener('click', ()=> {
 // 2nd 
 
 let btn1 = document.querySelector('#btn-right-beauty');
-let Lbtn2 = document.querySelector('#btn-left-beauty');
+let Lbtn1 = document.querySelector('#btn-left-beauty');
+let beauty = document.querySelector('.best-of-beauty');
 
 btn1.addEventListener('click', ()=> {
-    console.log('hello');
-    ele.style.right = '1%';
+    beauty.style.right = '1%';
+})
+
+Lbtn1.addEventListener('click', ()=> {
+    beauty.style.right = '-28%';
+})
+
+// 3rd
+
+let btn2 = document.querySelector('#btn-right-collection');
+let Lbtn2 = document.querySelector('#btn-left-collection');
+let collection = document.querySelector('.best-of-collection');
+
+btn2.addEventListener('click', ()=> {
+    collection.style.right = '1%';
+    btn2.style.display = 'none';
+    Lbtn2.style.display = 'block';
+})
+
+Lbtn2.addEventListener('click', ()=> {
+    collection.style.right = '-28%';
+    btn2.style.display = 'block';
+    Lbtn2.style.display = 'none';
 })
