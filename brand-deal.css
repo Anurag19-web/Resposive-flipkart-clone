@@ -54,3 +54,12 @@
     right: 30px;
     top: 170px;
 }
+
+@media only screen and (max-width: 1200px){
+    #brand-left-btn {
+        display: none;
+    }
+    #brand-right-btn {
+        display: none;
+    }
+}

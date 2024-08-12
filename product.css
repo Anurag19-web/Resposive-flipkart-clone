@@ -294,18 +294,23 @@
 @media only screen and (max-width: 750px) {
     .best-of-ele {
         flex-direction: column;
+        right: 2%;
     }
     .best-of-beauty {
+        right: 2%;
         flex-direction: column;
     }
     .best-of-collection {
+        right: 2%;
         flex-direction: column;
     }
     .best-of-ele-main {
-        height: auto;
+        height: 100vh;
         margin-left: 0;
         width: 100vw;
         margin-right: 0;
+        overflow: unset;
+        scrollbar-width: unset;
     }
     #heading-ele {
         margin: 20px 0 20px 10px;
