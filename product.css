@@ -39,6 +39,28 @@
 
 /* for new arrival collection end  */
 
+/* for .best-of-home  */
+.best-of-home {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    right: -28%;
+    transition: right 0.7s ease;
+}
+
+/* for .best-of-home ends  */
+
+/* your favorite brand deals  */
+
+.best-of-deals {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    right: -28%;
+    transition: right 0.7s ease;
+}
+/* your favorite brand deals  */
+
 #heading-ele {
     margin-left: 10px;
     font-size: 1.5rem;
@@ -192,6 +214,50 @@
 }
 
 #btn-right-collection {
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 130px;
+    z-index: 1;
+}
+
+#btn-left-home {
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 0;
+    top: 130px;
+    z-index: 1;
+}
+
+#btn-right-home {
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 130px;
+    z-index: 1;
+}
+
+#btn-left-deals {
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 0;
+    top: 130px;
+    z-index: 1;
+}
+
+#btn-right-deals {
     font-size: 1rem;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;

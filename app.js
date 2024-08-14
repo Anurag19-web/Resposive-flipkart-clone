@@ -227,3 +227,109 @@ Lbtn2.addEventListener('click', ()=> {
     btn2.style.display = 'block';
     Lbtn2.style.display = 'none';
 })
+
+// 4 th 
+
+let btn3 = document.querySelector('#btn-right-home');
+let Lbtn3 = document.querySelector('#btn-left-home');
+let home = document.querySelector('.best-of-home');
+
+btn3.addEventListener('click', ()=> {
+    home.style.right = '1%';
+    btn3.style.display = 'none';
+    Lbtn3.style.display = 'block';
+})
+
+Lbtn3.addEventListener('click', ()=> {
+    home.style.right = '-28%';
+    btn3.style.display = 'block';
+    Lbtn3.style.display = 'none';
+})
+
+// 5 th 
+
+let btn4 = document.querySelector('#btn-right-deals');
+let Lbtn4 = document.querySelector('#btn-left-deals');
+let deals = document.querySelector('.best-of-deals');
+
+btn4.addEventListener('click', ()=> {
+    deals.style.right = '1%';
+    btn4.style.display = 'none';
+    Lbtn4.style.display = 'block';
+})
+
+Lbtn4.addEventListener('click', ()=> {
+    deals.style.right = '-28%';
+    btn4.style.display = 'block';
+    Lbtn4.style.display = 'none';
+})
+
+window.addEventListener('resize', ()=> {
+    if(window.innerWidth <= '1200'){
+        ele.style.right=(window.innerWidth-1580+'px');
+        collection.style.right=(window.innerWidth-1580+'px');
+        home.style.right=(window.innerWidth-1580+'px');
+        deals.style.right=(window.innerWidth-1580+'px');
+        beauty.style.right=(window.innerWidth-1580+'px');
+    }else{
+        ele.style.right = '-28%';
+        beauty.style.right = '-28%';
+        collection.style.right = '-28%';
+        home.style.right = '-28%';
+        deals.style.right = '-28%';
+    }
+})
+
+// feature-brands-1
+
+let con = document.querySelector('#feature');
+let exbtn = document.querySelector('#brand-right-btn');
+let Lexbtn = document.querySelector('#brand-left-btn');
+
+let arr = ['-204%','-110%', '-17%', '12%']
+let i = 0;
+exbtn.addEventListener('click', ()=> {
+    i++;
+        con.style.right = arr[i];
+        if(i == 3){
+            exbtn.style.display = 'none';
+        }else if (i > 0){
+            Lexbtn.style.display = 'block';
+        }
+})
+Lexbtn.addEventListener('click', ()=> {
+    i--;
+    con.style.right = arr[i];
+    if (i == 0) {
+        Lexbtn.style.display = 'none';
+    }else if (i == 2){
+        exbtn.style.display = 'block';
+    }
+})
+
+// feature-brands-1
+
+let con2 = document.querySelector('#feature-2');
+let exbtn2 = document.querySelector('#brand-right-btn-2');
+let Lexbtn2 = document.querySelector('#brand-left-btn');
+
+let arr2 = ['-204%','-110%', '-17%', '12%']
+let j = 0;
+exbtn2.addEventListener('click', ()=> {
+    j++;
+        con2.style.right = arr2[j];
+        if(j == 3){
+            exbtn2.style.display = 'none';
+        }else if (j > 0){
+            Lexbtn2.style.display = 'block';
+        }
+})
+Lexbtn2.addEventListener('click', ()=> {
+    j--;
+    con2.style.right = arr[j];
+    if (j == 0) {
+        Lexbtn2.style.display = 'none';
+    }else if (j == 2){
+        exbtn2.style.display = 'block';
+    }
+})
