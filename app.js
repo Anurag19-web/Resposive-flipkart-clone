@@ -303,7 +303,7 @@ Lexbtn.addEventListener('click', ()=> {
     if (i == 0) {
         Lexbtn.style.display = 'none';
     }else if (i == 2){
-        exbtn.style.display = 'block';
+        exbtn.style.display = 'block';  
     }
 })
 
@@ -311,7 +311,7 @@ Lexbtn.addEventListener('click', ()=> {
 
 let con2 = document.querySelector('#feature-2');
 let exbtn2 = document.querySelector('#brand-right-btn-2');
-let Lexbtn2 = document.querySelector('#brand-left-btn');
+let Lexbtn2 = document.querySelector('#brand-left-btn-2');
 
 let arr2 = ['-204%','-110%', '-17%', '12%']
 let j = 0;
@@ -326,7 +326,7 @@ exbtn2.addEventListener('click', ()=> {
 })
 Lexbtn2.addEventListener('click', ()=> {
     j--;
-    con2.style.right = arr[j];
+    con2.style.right = arr2[j];
     if (j == 0) {
         Lexbtn2.style.display = 'none';
     }else if (j == 2){
