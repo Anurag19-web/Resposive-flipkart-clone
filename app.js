@@ -280,6 +280,22 @@ window.addEventListener('resize', ()=> {
     }
 })
 
+window.onload = function () {
+    if(window.innerWidth <= '1200'){
+        ele.style.right=(window.innerWidth-1580+'px');
+        collection.style.right=(window.innerWidth-1580+'px');
+        home.style.right=(window.innerWidth-1580+'px');
+        deals.style.right=(window.innerWidth-1580+'px');
+        beauty.style.right=(window.innerWidth-1580+'px');
+    }else{
+        ele.style.right = '-25%';
+        beauty.style.right = '-25%';
+        collection.style.right = '-25%';
+        home.style.right = '-25%';
+        deals.style.right = '-25%';
+    }
+}
+
 // feature-brands-1
 
 let con = document.querySelector('#feature');

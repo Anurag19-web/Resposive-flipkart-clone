@@ -142,4 +142,25 @@
     #brand-right-btn {
         display: none;
     }
+    #container {
+        overflow: scroll;
+    }
+    #container-2 {
+        overflow: scroll;
+    }
+    #feature {
+        right: unset;
+    }
+    #feature-2 {
+        right: unset;
+    }
+    #brand-right-btn-2 {
+        display: none;
+    }
+    #btn-right-home {
+        display: none;
+    }
+    #btn-right-deals {
+        display: none;
+    }
 }
