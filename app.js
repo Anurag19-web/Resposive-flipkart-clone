@@ -193,7 +193,7 @@ btn.addEventListener('click', ()=> {
 })
 
 Lbtn.addEventListener('click', ()=> {
-    ele.style.right = '-28%';
+    ele.style.right = '-25%';
 })
 
 // 2nd 
@@ -207,7 +207,7 @@ btn1.addEventListener('click', ()=> {
 })
 
 Lbtn1.addEventListener('click', ()=> {
-    beauty.style.right = '-28%';
+    beauty.style.right = '-25%';
 })
 
 // 3rd
@@ -223,7 +223,7 @@ btn2.addEventListener('click', ()=> {
 })
 
 Lbtn2.addEventListener('click', ()=> {
-    collection.style.right = '-28%';
+    collection.style.right = '-25%';
     btn2.style.display = 'block';
     Lbtn2.style.display = 'none';
 })
@@ -241,7 +241,7 @@ btn3.addEventListener('click', ()=> {
 })
 
 Lbtn3.addEventListener('click', ()=> {
-    home.style.right = '-28%';
+    home.style.right = '-25%';
     btn3.style.display = 'block';
     Lbtn3.style.display = 'none';
 })
@@ -259,7 +259,7 @@ btn4.addEventListener('click', ()=> {
 })
 
 Lbtn4.addEventListener('click', ()=> {
-    deals.style.right = '-28%';
+    deals.style.right = '-25%';
     btn4.style.display = 'block';
     Lbtn4.style.display = 'none';
 })
@@ -272,11 +272,11 @@ window.addEventListener('resize', ()=> {
         deals.style.right=(window.innerWidth-1580+'px');
         beauty.style.right=(window.innerWidth-1580+'px');
     }else{
-        ele.style.right = '-28%';
-        beauty.style.right = '-28%';
-        collection.style.right = '-28%';
-        home.style.right = '-28%';
-        deals.style.right = '-28%';
+        ele.style.right = '-25%';
+        beauty.style.right = '-25%';
+        collection.style.right = '-25%';
+        home.style.right = '-25%';
+        deals.style.right = '-25%';
     }
 })
 
