@@ -361,14 +361,25 @@
     .best-of-ele {
         flex-direction: column;
         right: 2%;
+        position: unset;
+    }
+    .best-of-home {
+        display: block;
+        position: unset;
+    }
+    .best-of-deals {
+        display: block;
+        position: unset;  
     }
     .best-of-beauty {
         right: 2%;
         flex-direction: column;
+        position: unset;
     }
     .best-of-collection {
         right: 2%;
         flex-direction: column;
+        position: unset;
     }
     .best-of-ele-main {
         height: 100vh;
