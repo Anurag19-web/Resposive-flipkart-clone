@@ -341,15 +341,16 @@
         height: 290px;
     }
     .mon-pro-img img {
-        height: 230px;
-        width: 165px;
+        height: 180px;
+        width: 120px;
+        padding-top: 50px;
     }
     .mon-pro-img {
         margin-bottom: 30px;
     }
     .mon-pro-img img:hover {
-        height: 230px;
-        width: 165px;
+        height: 180px;
+        width: 120px;
         cursor: hand;
     }
 
@@ -382,7 +383,7 @@
         position: unset;
     }
     .best-of-ele-main {
-        height: 100vh;
+        height: 942px;
         margin-left: 0;
         width: 100vw;
         margin-right: 0;
@@ -440,5 +441,15 @@
     }
     .mon-pro-img {
         padding: 0 25px 0 25px;
+    }
+    .ele-pro-img img:hover {
+        width: 50px;
+        height: 65px;
+        cursor: Hand;
+    }
+    .mon-pro-img img:hover {
+        height: 200px;
+        width: 150px;
+        cursor: hand;
     }
 }
