@@ -349,3 +349,12 @@ Lexbtn2.addEventListener('click', ()=> {
         exbtn2.style.display = 'block';
     }
 })
+
+document.querySelector('#bars').addEventListener('click', ()=> {
+    document.querySelector('#menu').style.display = 'block';
+})
+
+document.querySelector('#close-menu').addEventListener('click', ()=> {
+    document.querySelector('#menu').style.display = 'none';
+    console.log('hello');
+})
