@@ -364,4 +364,19 @@
     .recommondation {
         margin: 10px 5px 7px 5px;
     }
+    #electronic-dropdown {
+        display: none;
+    }
+    #home-furniture-dropdown {
+        display: none;
+    }
+    #beauty-toy-dropdown {
+        display: none;
+    }
+    #two-wheeler-dropdown {
+        display: none;
+    }
+    #fashion-dropdown {
+        display: none;
+    }
 }

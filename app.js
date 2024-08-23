@@ -302,7 +302,7 @@ let con = document.querySelector('#feature');
 let exbtn = document.querySelector('#brand-right-btn');
 let Lexbtn = document.querySelector('#brand-left-btn');
 
-let arr = ['-204%','-110%', '-17%', '12%']
+let arr = ['-204%','-113%', '-21%', '3%']
 let i = 0;
 exbtn.addEventListener('click', ()=> {
     i++;
@@ -329,7 +329,7 @@ let con2 = document.querySelector('#feature-2');
 let exbtn2 = document.querySelector('#brand-right-btn-2');
 let Lexbtn2 = document.querySelector('#brand-left-btn-2');
 
-let arr2 = ['-204%','-110%', '-17%', '12%']
+let arr2 = ['-204%','-113%', '-21%', '3%']
 let j = 0;
 exbtn2.addEventListener('click', ()=> {
     j++;

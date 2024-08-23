@@ -192,6 +192,10 @@ body {
     .cart-text {
         margin-right: -30px;
     }
+    #login-box:hover {
+        background-color: unset;
+        cursor: pointer;
+    }
 }
 
 /* reponsive mobile  */
@@ -238,5 +242,11 @@ body {
     }
     .cart-text {
         width: 80px;
+    }
+    #login-dropdown {
+        left: -75px;
+    }
+    #login-dropdown a{
+        width: 190px;
     }
 }
