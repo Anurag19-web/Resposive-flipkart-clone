@@ -352,10 +352,8 @@ Lexbtn2.addEventListener('click', ()=> {
 
 document.querySelector('#hum-burger').addEventListener('click', ()=> {
     document.querySelector('#menu').style.display = 'block';
-    console.log('bars clicked')
 })
 
 document.querySelector('#close-menu').addEventListener('click', ()=> {
     document.querySelector('#menu').style.display = 'none';
-    console.log('hello');
 })
